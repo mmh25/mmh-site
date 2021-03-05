@@ -62,7 +62,7 @@ a#logo-button:hover {
     height: 100%;
     overflow: hidden;
     font-family: cookieRunFont;
-    line-height: 100%;
+    padding-top: 50px;
 }
 
 #footer {
