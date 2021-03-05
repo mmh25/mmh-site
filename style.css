@@ -16,12 +16,27 @@ body{
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+hr {
+    border: solid 0.2px rgba(192, 192, 192, 0.836);
+    width: 95%;
+}
+
+a {
+    text-decoration: none;
+    color: #5496ff; 
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #6552fa;
+}
+
 #header {
     position: fixed;
     width: 100%;
     padding: 10px 0 10px 0;
-    background-color: rgba(241, 241, 241, 0.5);
-    border-bottom: 7px solid #dedede;
+    background-color: rgba(245, 245, 245, 0.5);
+    border-bottom: 3px solid #dedede;
 }
 
 #background {
