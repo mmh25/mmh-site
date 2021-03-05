@@ -62,7 +62,6 @@ a#logo-button:hover {
     height: 100%;
     overflow: hidden;
     font-family: cookieRunFont;
-    vertical-align: middle;
 }
 
 #footer {
