@@ -37,6 +37,7 @@ a:hover {
     padding: 10px 0 10px 0;
     background-color: rgba(245, 245, 245, 0.5);
     border-bottom: 3px solid #dedede;
+    float: left;
 }
 
 #background {
