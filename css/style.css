@@ -47,7 +47,7 @@ a#logo-button:hover {
     background-color: rgba(245, 245, 245, 0.5);
     border-bottom: 3px solid #dedede;
     float: left;
-    text-ailgn: left;
+    text-align: left;
 }
 
 #background {
