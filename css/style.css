@@ -32,11 +32,11 @@ a:hover {
 }
 
 a#logo-button {
-    color: white;
+    color: black;
 }
 
 a#logo-button:hover {
-    color: white;
+    color: black;
 }
 
 #header {
