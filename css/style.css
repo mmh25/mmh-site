@@ -51,10 +51,6 @@ a#mail {
     color: white;
 }
 
-a#mail:hover {
-    color: white;
-}
-
 #header {
     position: fixed;
     width: 100%;
