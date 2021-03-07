@@ -59,6 +59,7 @@ a#mail {
     border-bottom: 3px solid #dedede;
     float: left;
     text-align: left;
+    margin: 0 auto;
 }
 
 #background {
@@ -66,6 +67,7 @@ a#mail {
     height: 100%;
     overflow: hidden;
     font-family: cookieRunFont;
+    margin: 0 auto;
 }
 
 #footer {
@@ -75,6 +77,7 @@ a#mail {
     color: white;
     font-size: 15px;
     text-align: left;
+    margin: 0 auto;
 }
 
 .max-width {
