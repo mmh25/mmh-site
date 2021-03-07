@@ -25,18 +25,18 @@ body{
 }
 
 hr {
-    border: solid 0.2px rgba(192, 192, 192, 0.836);
+    border: solid 0.2px rgba(192, 192, 192, 0.8);
     width: 95%;
 }
 
 a {
     text-decoration: none;
-    color: #5496ff; 
+    color: black; 
 }
 
 a:hover {
     text-decoration: underline;
-    color: #6552fa;
+    color: gray;
 }
 
 a#logo-button {
@@ -45,6 +45,14 @@ a#logo-button {
 
 a#logo-button:hover {
     color: black;
+}
+
+a#mail {
+    color: white;
+}
+
+a#mail:hover {
+    color: white;
 }
 
 #header {
