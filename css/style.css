@@ -68,7 +68,7 @@ a#mail {
     font-family: cookieRunFont;
 }
 
-#background .max-width {
+#background #main-back .max-width {
     height: 95%;
     position: relative;
     margin-top: 50px;
