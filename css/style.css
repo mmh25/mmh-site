@@ -66,9 +66,29 @@ a#mail {
     height: 100%;
     overflow: hidden;
     font-family: cookieRunFont;
+}
+
+#background .max-width {
+    height: 95%;
+    position: relative;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+#hello {
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+#down {
+    height: 5%;
+    margin: 0 auto;
 }
 
 #footer {
