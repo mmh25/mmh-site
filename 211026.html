@@ -27,7 +27,7 @@
         justify-content: space-around;
      }
 
-      .normal-text-box {
+      #ready-text-box {
         text-align: center;
         font-size: 100px;
       }
@@ -43,15 +43,15 @@
   <body>
 
     <div id="ready">
-      <div class="normal-text-box">
+      <div if="ready-text-box">
         📁
       </div>
     </div>
 
     <script>
       window.onload = function () {
-        document.getElementsByClassName("normal-text-box").innerText = "📂";
-        document.getElementsByClassName("normal-text-box").classList.add("ready-onload")
+        document.getElementById("ready-text-box").innerText = "📂";
+        document.getElementById("ready-text-box").classList.add("ready-onload")
       }
     </script>
 
