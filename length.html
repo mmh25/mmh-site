@@ -24,7 +24,7 @@
         <script>AOS.init();</script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script>
-            $('#writing').keyup(e => {
+            $('#writing').keyup(function (e) {
                 let count = $(this).val();
 
                 $('#length').text(count.replace(/(<([^>]+)>)/ig, "").replace(/( |\.|\,|\n|\t|\r|\!|\?|\'|\"|&nbsp;)/ig, "").replace(/^\s+|\s+$/g, "").replace(/&lrm;|\u200E/gi, "").length)
