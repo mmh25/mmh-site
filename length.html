@@ -21,7 +21,7 @@
             <script>
                 setInterval(() => {
 	            var length = document.getElementById("writing").value.replace(/(<([^>]+)>)/ig,"").replace(/( |\.|\,|\n|\t|\r|\!|\?|\'|\"|&nbsp;)/ig, "").replace(/^\s+|\s+$/g,'').replace(/&lrm;|\u200E/gi, '').length
-                    document.getElementById("length").html = length
+                    document.getElementById("length").innerHtml = length
                 }, 10*1000)
             </script>
         </div>
